@@ -1,0 +1,14 @@
+
+  let A : string = "";
+for(let r : number = 1 ; r <= 3 ; r++)  //rows
+{
+   
+      for(let c : number = 1 ; c <= 9 ; c++)   //columns
+        {
+           A += c;
+        }
+
+        A += "\n"  //A moves to next line
+}
+
+ console.log(A)   
